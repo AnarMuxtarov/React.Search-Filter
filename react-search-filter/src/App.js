@@ -1,25 +1,54 @@
-import logo from './logo.svg';
+import React,{useState} from "react"
 import './App.css';
+import Data from "../src/Data.json"
 
-function App() {
+
+
+
+const App = () => {
+ const [search,setSerch]=useState("")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<>
+<h1>QARABAĞ FK OYUNÇULAR</h1>
+<input className="input_search" type="text" placeholder=" OYUNÇULARI AXTAR..."
+
+onChange={(event)=>setSerch(event.target.value)}
+/>
+
+
+<div className="parent_data">
+{
+Data.filter((item)=>{
+
+if(search==""){
+
+return item
+
 }
 
-export default App;
+else if(item.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())){
+
+  return item
+}
+
+
+}).map((item)=>{
+ return(
+  <div className="Data" key={item.id}>
+  <img src={item.image}  />
+  <h2>{item.title}</h2>
+  <p>{item.Description}</p>
+  </div>)
+})
+
+
+}
+</div>
+
+
+</>
+  )
+}
+
+export default App

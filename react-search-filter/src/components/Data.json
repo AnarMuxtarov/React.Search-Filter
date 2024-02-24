@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "image":"https://scontent.fgbb1-1.fna.fbcdn.net/v/t39.30808-6/354640795_813563206805382_1491038323117817387_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=y3oskCOMIAUAX_M2srj&_nc_ht=scontent.fgbb1-1.fna&oh=00_AfBSHw-89jsWkkC7feksw__VseVpvhBygUzUqMtW-TKeCw&oe=65DE3F3A",
+        "title":"Maksim Medvedevin",
+        "Description":"KAPITAN"
+    },
+    
+{
+  "id":2,
+  "image":"https://qarabagh.com/uploads/cache/catalog/amin-removebg-preview-203x265.png",
+  "title":"Amin Ramazanov",
+  "Description":"QAPIÇI"
+},
+
+{
+    "id":3,
+    "image":"https://qarabagh.com/uploads/cache/catalog/6b72914e-f45f-46ea-918d-bce07bea8282-203x265.png",
+    "title":"Elvin Cəfərquliyev",
+    "Description":"MÜDAFİƏÇİ"
+  },
+
+  {
+
+   "id":4,
+   "image":"https://qarabagh.com/uploads/cache/catalog/947d5712-6e31-454d-bf41-d6f565b5b261-removebg-preview-203x265.png",
+   "title":"Nihad Quliyev",
+   "Description":"YARIMMÜDAFİƏÇİ"
+  },
+
+
+  {
+
+    "id":5,
+    "image":"https://qarabagh.com/uploads/cache/catalog/GO136548-removebg-preview-203x265.png",
+    "title":"Nəriman Axundzadə",
+    "Description":"HÜCUMÇU"
+   }
+ 
+  
+
+
+]

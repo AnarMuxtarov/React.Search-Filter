@@ -1,6 +1,6 @@
 import React,{useState} from "react"
 import './App.css';
-import Data from "../src/Data.json"
+import Data from "../src/components/Data.json"
 
 
 
